@@ -17,10 +17,9 @@ a[j]=temp;
 }
 }
 }
-for(i=0;i<n;i++)
-{
-    printf("%d ",a[i]);
-
-}
+int max=a[n];
+int min=a[1];
+printf("%d ",min);
+    printf("%d ",max);
 return 0;
 }
