@@ -15,10 +15,10 @@ n=n/10;
 }
 printf("%d\n",sum);
 if(sum==x)
-{printf("number is strong");
+{printf(" %d number is strong",x);
 }
 else
-{printf("number is not strong");
+{printf(" %d number is not strong",x);
 }
 return 0;
 }
